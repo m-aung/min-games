@@ -17,7 +17,7 @@ def runHangman(words:list):
     else:
       print('The letter is not in the word. Please try again.')
       attemptsLeft -= 1
-  if '_' not in word:
+  if '_' not in display:
     print ('Victory!!! 🎉🎉🎉')
     print(' '.join(word))
   else:
